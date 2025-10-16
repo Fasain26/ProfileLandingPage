@@ -287,9 +287,21 @@ a { color: var(--primary-color); text-decoration: none; }
 
 .project-image-placeholder {
     height: 200px;
-    background-image: url('images/project-placeholder.png'); /* <-- Path to your new image */
+    
     background-size: cover;
     background-position: center;
+}
+
+.project-img-1 {
+    background-image: url('images/voting.jpeg');
+}
+
+.project-img-2 {
+    background-image: url('images/profile_landing_page.jpeg');
+}
+
+.project-img-3 {
+    background-image: url('images/project3.jpeg');
 }
 
 .project-card h3 { padding: 1rem 1.5rem 0.5rem; }
